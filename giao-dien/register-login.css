@@ -1,0 +1,115 @@
+/* Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #152533;
+    color: #e0e0e0;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+body.light {
+    background-color: #ffffff;
+    color: #333;
+}
+
+body.dark {
+    background-color: #152533;
+    color: #e0e0e0;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Form Styles */
+.form-container {
+    background-color: #262626;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: 50px auto;
+    color: #e0e0e0;
+    text-align: center; /* Căn giữa nội dung */
+}
+
+body.light .form-container {
+    background-color: #fff;
+    color: #333;
+}
+
+.form-title {
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8em;
+    text-align: center; /* Căn giữa chữ Đăng Ký */
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left; /* Căn trái nhãn và trường nhập liệu */
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.error {
+    color: #ff4d4d;
+    margin-bottom: 15px;
+}
+
+.success {
+    color: #4caf50;
+    margin-bottom: 15px;
+}
+
+.register-link {
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.register-link a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.register-link a:hover {
+    color: #0056b3;
+}
